@@ -4,3 +4,4 @@ pytest
 jinja2
 clickhouse-driver
 pika
+httpx
