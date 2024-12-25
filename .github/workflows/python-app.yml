@@ -28,4 +28,5 @@ jobs:
 
     - name: Run tests
       run: |
+        export PYTHONPATH=$(pwd)  # Set the PYTHONPATH to the current working directory
         pytest tests/  # Run the tests using pytest. The tests should be located in the 'tests/' directory.
